@@ -3,7 +3,7 @@
     MAIN
     <li>
       <OurProducts
-      :productsData="this.products"/>
+      :productsData="products"/>
       Our Products - component with son (ProductSlideCard)
     </li>
     <li>
@@ -12,7 +12,7 @@
     </li>
     <li>
       <ShopNow
-      :productsData="this.products"/>
+      :productsData="products"/>
       Shop Now - component with son (ProductSlideCard)
     </li>
     <li>

@@ -1,18 +1,17 @@
 <template>
   <div>
-      {{ productName }},
-      {{ productPriceMin }} -
-      {{ productPriceMax }}
+    <li>
+      <a :href="linkUrl"> {{ linkText }} </a>
+    </li>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'ProductSlideCard',
+  name: 'NavigationBarLink',
   props: {
-    productName: String,
-    productPriceMin: String,
-    productPriceMax: String
+    linkText: String,
+    linkUrl: String,
   }
 }
 </script>

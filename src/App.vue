@@ -2,13 +2,15 @@
   <div id="app">
     <ul>
       <li>
-    <Header/>
+    <Header
+    :linkData="links"/>
       </li>
       <li>
     <Main/>
       </li>
       <li>
-    <Footer/>
+    <Footer
+    :linkData="links"/>
       </li>
     </ul>
 
@@ -28,16 +30,55 @@ export default {
     Header,
     Main,
     Footer
+  },
+  data() {
+    return {
+      links: [
+        {
+          text: "Shop",
+          url: "#"
+        },
+        {
+          text: "About",
+          url: "#"
+        },
+        {
+          text: "Gallery",
+          url: "#"
+        },
+        {
+          text: "Locations",
+          url: "#"
+        },
+        {
+          text: "Journal",
+          url: "#"
+        },
+        {
+          text: "Contact",
+          url: "#"
+        }
+      ]
+    }
   }
 }
 </script>
 
 <style lang="scss">
 
-// * {
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: border-box;
-// }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav_link {
+  list-style: none;
+  padding: 20px;
+
+  a {
+    text-decoration: none;
+  }
+}
 
 </style>
