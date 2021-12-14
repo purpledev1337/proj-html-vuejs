@@ -1,7 +1,11 @@
 <template>
   <div>
     <li>
-      <a :href="linkUrl"> {{ linkText }} </a>
+      <a :href="linkUrl">
+        <div>
+          {{ linkText }}
+        </div>
+      </a>
     </li>
   </div>
 </template>
@@ -18,5 +22,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
+a {
+  
+  div {
+    padding: 6px 0;
+  }
+}
 </style>

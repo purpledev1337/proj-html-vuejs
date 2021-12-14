@@ -18,16 +18,22 @@
           :linkUrl="link.url"
           />
           <li class="nav_link">
-            <a href="#">Orders</a>
+            <a href="#">
+              <div>
+                Orders
+              </div>
+            </a>
           </li>
           <li class="nav_link">
             <a href="#">
-              <font-awesome-icon class="icon" :icon="['fas', 'shopping-cart']"/>
-              <span>0</span>
+              <div>
+                <font-awesome-icon class="icon" :icon="['fas', 'shopping-cart']"/>
+              </div>
+                <span>0</span>
             </a>
           </li>
         </ul>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat labore ex corrupti qui quo! Dicta eligendi aut eum hic quo blanditiis, aspernatur harum voluptatum perferendis. Delectus neque deserunt sed fuga?</p>
+        <p>&copy; Copyright 2021 - 2022 | Bakery Theme by purpledev1337 | All Rights Reserved | Powered by VueJS 2.6.11 </p>
       </section>
       <section id="nav_right">
         <h1>Subscribe to our Newsletter</h1>
@@ -115,7 +121,31 @@ footer {
       ul {
         display: flex;
         justify-content: space-between;
-        margin: 50px 0;
+        margin: 70px 0;
+
+        .nav_link {
+
+          a {
+
+            div {
+              padding: 6px 0;
+              display: inline-block;
+            }
+            span {
+              font-size: 1.2em;
+              background-color: rgba(189, 162, 243, 0.3);
+              border: 4px solid transparent;
+              border-radius: 50%;
+              padding: 0 5px;
+              margin: 0 5px;
+            }
+          }
+        }
+      }
+
+      p {
+        font-size: 0.8em;
+        color: #c1c1c7;
       }
     }
 

@@ -74,7 +74,6 @@ export default {
 
 .nav_link {
   list-style: none;
-  padding: 20px;
 
   a {
     text-decoration: none;

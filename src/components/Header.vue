@@ -3,6 +3,13 @@
     <nav>
       <img src="../assets/avada-bakery-logo-retina.png" alt="">
       <ul>
+          <li class="nav_link">
+            <a class="active" href="#">
+              <div>
+                Home
+              </div>
+            </a>
+          </li>
           <NavigationBarLink
           class="nav_link"
           v-for="link, i in linkData" :key="i"
@@ -11,12 +18,16 @@
           />
           <li class="nav_link">
             <a href="#">
-              My Account
+              <div>
+                My Account
+              </div>
             </a>
           </li>
           <li class="nav_link">
             <a href="#">
-              <font-awesome-icon class="icon" :icon="['fas', 'shopping-cart']"/>
+              <div>
+                <font-awesome-icon class="icon" :icon="['fas', 'shopping-cart']"/>
+              </div>
             </a>
           </li>
       </ul>
@@ -59,16 +70,37 @@ header {
     align-items: center;
 
     img {
-      height: 90px;
+      margin: 0 25px;
+      height: 85px;
     }
  
     ul {
+      width: 40%;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
+
+      .nav_link {
+        font-size: 0.8em;
+        text-transform: uppercase;
+
+        a {
+
+          &.active {
+
+            div {
+              padding: 6px 0;
+              border-bottom: 2px solid #5b2ca2;
+            }
+          }
+
+          div {
+            padding: 6px 0;
+          }
+        }
+      }
 
       .icon {
         color: #5b2ca2;
-        padding: 2px;
       }
     }
   }
