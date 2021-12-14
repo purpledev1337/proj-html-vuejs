@@ -1,6 +1,5 @@
 <template>
   <div>
-    ShopNow
     <ProductSlideCard
     id="card"
     v-for="product, j in productsData" :key="j"

@@ -1,33 +1,20 @@
 <template>
-  <ul>
-    MAIN
-    <li>
+  <div>
       <OurProducts
       :productsData="products"/>
-      Our Products - component with son (ProductSlideCard)
-    </li>
-    <li>
+
       <SpecialMoments/>
-      Special Moments (static)
-    </li>
-    <li>
+
       <ShopNow
       :productsData="products"/>
-      Shop Now - component with son (ProductSlideCard)
-    </li>
-    <li>
+
       <Presentation/>
-      Info component (static)
-    </li>
-    <li>
+
       <Locations/>
-      Locations component (static)
-    </li>
-    <li>
+
       <Social/>
-      Social component (static)
-    </li>
-  </ul>
+
+  </div>
 </template>
 
 <script>
@@ -53,16 +40,52 @@ export default {
     return {
       products: [
         {
-          name: "Cookie",
-          path: "../assets/product.png",
+          name: "Choco Chip Cookies",
+          path: "../assets/choco-chip-cookies.jpg",
           priceMin: '$19.00',
           priceMax: '$39.00'
         },
         {
-          name: "Cake",
-          path: "../assets/product.png",
+          name: "Strawberry Jam Cookies",
+          path: "../assets/strawberry-jam-cookies.jpg",
           priceMin: '$24.00',
           priceMax: '$62.00'
+        },
+        {
+          name: "Strawberry Donut",
+          path: "../assets/strawberry-donut.jpg",
+          priceMin: '$24.00',
+          priceMax: '$42.00'
+        },
+        {
+          name: "Perfect Macarons",
+          path: "../assets/perfect-macarons.jpg",
+          priceMin: '$18.00',
+          priceMax: '$52.00'
+        },
+        {
+          name: "Small Cupcake",
+          path: "../assets/small-cupcake.jpg",
+          priceMin: '$14.00',
+          priceMax: '$29.00'
+        },
+        {
+          name: "Cherry Cake",
+          path: "../assets/cherry-cake.jpg",
+          priceMin: '$59.00',
+          priceMax: '$119.00'
+        },
+        {
+          name: "Home Bread",
+          path: "../assets/home-bread.jpg",
+          priceMin: '$12.00',
+          priceMax: '$19.00'
+        },
+        {
+          name: "Premium Bread",
+          path: "../assets/premium-bread.jpg",
+          priceMin: '$18.00',
+          priceMax: '$37.00'
         }
       ]
     }

@@ -1,6 +1,5 @@
 <template>
   <div>
-    OurProducts
     <ProductSlideCard
     id="card"
     v-for="product, i in productsData" :key="i"
