@@ -75,7 +75,6 @@ export default {
   }
 
   h6 {
-    color: #c1c1c7;
     text-transform: uppercase;
   }
 
