@@ -7,7 +7,8 @@
       <h6>Made for Sharing</h6>
       <h1>Let's stay in touch</h1>
       <button>
-        Folow Us
+        <i class="fab fa-instagram"></i>
+          Follow Us
       </button>
     </div>
     <div class="social_card">

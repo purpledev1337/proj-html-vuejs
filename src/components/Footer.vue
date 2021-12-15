@@ -41,16 +41,16 @@
         <button>Subscribe</button>
         <div id="social_icons">
           <a href="">
-            <font-awesome-icon icon="hashtag" />
+            <i class="fab fa-instagram"></i>
           </a>
           <a href="">
-            <font-awesome-icon icon="hashtag" />
+            <i class="fab fa-twitter"></i>
           </a>
           <a href="">
-            <font-awesome-icon icon="hashtag" />
+            <i class="fab fa-facebook-f"></i>
           </a>
           <a href="">
-            <font-awesome-icon icon="hashtag" />
+            <i class="fab fa-pinterest-p"></i>
           </a>
         </div>
       </section>
@@ -174,8 +174,10 @@ footer {
       #social_icons {
         margin-top: 100px;
 
-        .icon {
-          width: 50px;
+        i {
+          width: 60px;
+          font-size: 1.2em;
+          // font-weight: 600;
         }
       }
     }
