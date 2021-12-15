@@ -6,10 +6,10 @@
     <div class="social_call">
       <h6>Made for Sharing</h6>
       <h1>Let's stay in touch</h1>
-      <button>
+      <div class="btn dark">
         <i class="fab fa-instagram"></i>
           Follow Us
-      </button>
+      </div>
     </div>
     <div class="social_card">
       <img src="../assets/social-2.jpg" alt="">
@@ -74,10 +74,6 @@ export default {
       color: #5b2ca2;
       font-size: 2em;
       margin: 20px 0;
-    }
-
-    button {
-      padding: 10px;
     }
   }
 }

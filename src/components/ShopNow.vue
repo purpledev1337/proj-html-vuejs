@@ -3,7 +3,7 @@
     <div id="text">
       <h1>Find a freshly baked product perfect for you</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid minus, itaque tenetur. Sed ac nulla id orci tempor convallis sed.</p>
-      <button>Show All Products</button>
+      <div class="btn dark">Show All Products</div>
     </div>
     <div id="products">
       <div class="card">
@@ -198,10 +198,6 @@ section {
       &.right {
         right: 0;
       }
-
-      // &.icon {
-        
-      // }
     }
   }
 }

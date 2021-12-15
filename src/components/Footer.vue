@@ -4,7 +4,7 @@
       <div id="jumbotron">
         <h6>Try Our Seasonal Products</h6>
         <h1>Order for pick-up or delivery to your home</h1>
-        <button>Shop Now</button>
+        <div class="btn light">Shop Now</div>
       </div>
     </section>
     <nav>
@@ -38,7 +38,7 @@
       <section id="nav_right">
         <h1>Subscribe to our Newsletter</h1>
         <input type="email" placeholder="Enter email address*">
-        <button>Subscribe</button>
+        <div class="btn dark">Subscribe</div>
         <div id="social_icons">
           <a href="">
             <i class="fab fa-instagram"></i>
@@ -100,9 +100,11 @@ footer {
         margin: 20px 0;
       }
 
-      button {
+      .btn {
         margin-top: 50px;
-        padding: 10px;
+        font-weight: 200;
+        font-size: 1.2em;
+        padding: 15px 35px;
       }
     }
   }
@@ -167,17 +169,12 @@ footer {
         margin-right: 15px;
       }
 
-      button {
-        padding: 10px;
-      }
-
       #social_icons {
         margin-top: 100px;
 
         i {
           width: 60px;
           font-size: 1.2em;
-          // font-weight: 600;
         }
       }
     }

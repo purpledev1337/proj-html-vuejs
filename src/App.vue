@@ -13,8 +13,6 @@
     :linkData="links"/>
       </li>
     </ul>
-
-
   </div>
 </template>
 
@@ -76,6 +74,39 @@ export default {
 h1, h2, h3 {
   font-family: 'Merriweather', sans-serif;
   font-weight: 800;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 35px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  font-weight: 600;
+
+  &.light {
+    background-color: #fff;
+    color: #5b2ca2;
+
+    &:hover {
+      background-color: #5b2ca2;
+      color: #fff;
+    }
+  }
+  
+  &.dark {
+    background-color: #5b2ca2;
+    color: #fff;
+
+    &:hover {
+    background-color: #e6ddf8;
+    color: #5b2ca2;
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .nav_link {

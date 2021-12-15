@@ -76,10 +76,6 @@ export default {
         margin: 40px 0;
 
       }
-
-      button {
-        padding: 10px 15px;
-      }
     }
 
     .hidden {

@@ -24,7 +24,7 @@
             9:00 AM - 6:00 PM
           </span>
         </div>
-        <button>View Map</button>
+        <div class="btn light">View Map</div>
       </div>
     </div>
     <div class="location_card london_info">
@@ -49,7 +49,7 @@
             9:00 AM - 6:00 PM
           </span>
         </div>
-        <button>View Map</button>
+        <div class="btn light">View Map</div>
       </div>
     </div>
 
@@ -113,10 +113,6 @@ export default {
         color: #c1c1c7;
         text-transform: uppercase;
         margin: 10px 0;
-      }
-
-      button {
-        padding: 0 20px;
       }
     }
 

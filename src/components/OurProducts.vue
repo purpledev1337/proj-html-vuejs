@@ -3,7 +3,7 @@
     <div id="text">
       <h6>Our Products</h6>
       <h1>All our delectable pastries are baked fresh in our Kitchen very morning, and are made with all-natural, all organic ingredients.</h1>
-      <button>Start Shopping</button>
+      <div class="btn dark">Start Shopping</div>
     </div>
     <div id="products">
       <div class="card">

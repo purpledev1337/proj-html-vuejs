@@ -36,7 +36,7 @@
       <h6>Fresh & Tasty Bakery Every Day</h6>
       <h1>The Perfect Fresh Bread</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, pariatur itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      <button>Explore our products</button>
+      <div class="btn light">Explore our products</div>
     </div>
   </header>
 </template>
@@ -120,11 +120,6 @@ header {
       font-size: 3.5em;
       color: #5b2ca2;
       margin: 25px 0;
-    }
-
-    button {
-      margin-top: 30px;
-      padding: 10px;
     }
   }
 }
