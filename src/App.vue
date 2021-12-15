@@ -1,18 +1,14 @@
 <template>
-  <div id="app">
-    <ul>
-      <li>
+  <div>
     <Header
     :linkData="links"/>
-      </li>
-      <li>
-    <Main/>
-      </li>
-      <li>
+
+    <div id="main_container">
+      <Main/>
+    </div>
+
     <Footer
     :linkData="links"/>
-      </li>
-    </ul>
   </div>
 </template>
 
@@ -69,6 +65,11 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+}
+
+#main_container {
+  width: 90%;
+  margin: 0 auto;
 }
 
 h1, h2, h3 {
