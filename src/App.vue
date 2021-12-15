@@ -77,6 +77,10 @@ h1, h2, h3 {
   font-weight: 800;
 }
 
+h6 {
+  letter-spacing: 3px;
+}
+
 .btn {
   display: inline-block;
   margin-top: 30px;

@@ -67,6 +67,10 @@ export default {
       height: 840px;
       object-fit: cover;
       object-position: left;
+
+      &.hidden {
+        object-position: right;
+      }
     }
 
     .text {
@@ -76,16 +80,20 @@ export default {
       left: 50%;
       transform: translate(-50%, -50%);
 
+      h6 {
+        color: #d3d3d3;
+      }
+
       h1 {
         color: inherit;
         font-size: 2em;
         margin: 40px 0;
-
       }
     }
 
     .hidden {
       display: none;
+      
     }
 
     &:hover img {
