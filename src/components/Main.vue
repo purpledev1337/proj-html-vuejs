@@ -43,49 +43,57 @@ export default {
           name: "Choco Chip Cookies",
           path: "../assets/choco-chip-cookies.jpg",
           priceMin: '$19.00',
-          priceMax: '$39.00'
+          priceMax: '$39.00',
+          active: 1
         },
         {
           name: "Strawberry Jam Cookies",
           path: "../assets/strawberry-jam-cookies.jpg",
           priceMin: '$24.00',
-          priceMax: '$62.00'
+          priceMax: '$62.00',
+          active: 1
         },
         {
           name: "Strawberry Donut",
           path: "../assets/strawberry-donut.jpg",
           priceMin: '$24.00',
-          priceMax: '$42.00'
+          priceMax: '$42.00',
+          active: 0
         },
         {
           name: "Perfect Macarons",
           path: "../assets/perfect-macarons.jpg",
           priceMin: '$18.00',
-          priceMax: '$52.00'
+          priceMax: '$52.00',
+          active: 0
         },
         {
           name: "Small Cupcake",
           path: "../assets/small-cupcake.jpg",
           priceMin: '$14.00',
-          priceMax: '$29.00'
+          priceMax: '$29.00',
+          active: 0
         },
         {
           name: "Cherry Cake",
           path: "../assets/cherry-cake.jpg",
           priceMin: '$59.00',
-          priceMax: '$119.00'
+          priceMax: '$119.00',
+          active: 0
         },
         {
           name: "Home Bread",
           path: "../assets/home-bread.jpg",
           priceMin: '$12.00',
-          priceMax: '$19.00'
+          priceMax: '$19.00',
+          active: 0
         },
         {
           name: "Premium Bread",
           path: "../assets/premium-bread.jpg",
           priceMin: '$18.00',
-          priceMax: '$37.00'
+          priceMax: '$37.00',
+          active: 0
         }
       ]
     }

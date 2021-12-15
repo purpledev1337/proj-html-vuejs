@@ -1,8 +1,9 @@
 <template>
   <div>
-      {{ productName }},
+      <!-- {{ productName }},
       {{ productPriceMin }} -
       {{ productPriceMax }}
+      <img :src="productPath" alt=""> -->
   </div>
 </template>
 
@@ -11,6 +12,7 @@ export default {
   name: 'ProductSlideCard',
   props: {
     productName: String,
+    productPath: String,
     productPriceMin: String,
     productPriceMax: String
   }
