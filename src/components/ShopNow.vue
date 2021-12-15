@@ -2,7 +2,7 @@
   <section>
     <div id="text">
       <h1>Find a freshly baked product perfect for you</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid minus, itaque tenetur. Sed ac nulla id orci tempor convallis sed.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid minus, itaque tenetur. Sed ac nulla id orci tempor.</p>
       <div class="btn dark">Show All Products</div>
     </div>
     <div id="products">
@@ -50,7 +50,7 @@
           </div>
         </div>
         <div class="info_text">
-          <h1>Perect Macarons</h1>
+          <h1>Perfect Macarons</h1>
           <span>$18.00 - $52.00</span>
         </div>
       </div>
@@ -97,30 +97,25 @@ section {
   #text {
     width: 25%;
     padding: 0 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 
     h1 {
       color: #5b2ca2;
-      font-size: 2.2em;
-      margin: 30px 0;
+      font-size: 1.8em;
+      margin-top: 150px;
+      margin-bottom: 25px;
     }
 
     p {
       font-size: 1.2em;
       line-height: 25px;
-    }
-
-    button {
-      padding: 10px;
-      margin-top: 20px;
+      color: gray;
     }
   }
 
   #products {
     width: 75%;
+    margin: 0 15px;
     padding-top: 50px;
     padding-bottom: 200px;
     display: flex;
@@ -142,7 +137,7 @@ section {
         height: 100%;
         position: absolute;
         top: 0;
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: rgba(0, 0, 0, 0.4);
         display: none;
         justify-content: center;
         align-items: center;
@@ -150,7 +145,7 @@ section {
         .hidden_text {
           text-align: center;
           vertical-align: middle;
-          color: #fff;
+          color: #d3d3d3;
 
           span {
             font-size: 1em;
@@ -171,7 +166,7 @@ section {
         color: #5b2ca2;
 
         h1 {
-          font-size: 1.6em;
+          font-size: 1.2em;
         }
 
         span {

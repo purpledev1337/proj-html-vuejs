@@ -62,13 +62,13 @@ export default {
 <style scoped lang="scss">
 section {
   height: 100vh;
-  padding: 150px 0;
+  padding: 130px 0;
   display: flex;
   justify-content: space-between;
 
   #text {
     width: 40%;
-    padding: 30px 50px;
+    padding: 30px 30px;
 
     h6 {
       color: #c1c1c7;
@@ -77,7 +77,7 @@ section {
 
     h1 {
       color: #5b2ca2;
-      font-size: 2.4em;
+      font-size: 2em;
       margin: 30px 0;
     }
 
