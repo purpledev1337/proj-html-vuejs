@@ -62,7 +62,9 @@ export default {
 <style scoped lang="scss">
 section {
   height: 100vh;
-  padding: 130px 0;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 150px 0;
   display: flex;
   justify-content: space-between;
 
@@ -140,22 +142,19 @@ section {
     .arrow {
       padding: 30px 15px;
       color: #fff;
-      background-color: #5b2ca254;
       position: absolute;
       top: 50%;
       transform: translate(0, -50%);
 
       &.left {
+        background-color: #a691b2;
         left: 0;
       }
 
       &.right {
+        background-color: #a697c4;
         right: 0;
       }
-
-      // &.icon {
-        
-      // }
     }
   }
 }

@@ -2,7 +2,7 @@
   <div id="special_moments">
     <h6>Corporate & Weddings </h6>
     <h1>Baking Special Moments</h1>
-    <div class="photo_container">
+    <div class="photo_container first">
       <img src="../assets/corporate-bg.jpg" alt="">
       <img class="hidden" src="../assets/corporate-hover-bg.jpg" alt="">
       <div class="hidden text">
@@ -35,16 +35,17 @@ export default {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 
   h6, h1 {
     width: 100%;
-    margin: 15px 0;
   }
 
   h6 {
     color: #818085;
     text-transform: uppercase;
     font-weight: 400;
+    margin-bottom: 20px;
   }
 
   h1 {
@@ -52,13 +53,18 @@ export default {
   }
 
   .photo_container {
-    margin: 15px auto;
-    width: 50%;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: calc(50% - 50px);
     position: relative;
+
+    &.first {
+      margin-right: 100px;
+    }
   
     img {
-      width: calc(100% - 100px);
-      height: 800px;
+      width: 100%;
+      height: 840px;
       object-fit: cover;
       object-position: left;
     }

@@ -66,6 +66,7 @@ export default {
 <style scoped lang="scss">
 #locations_container {
   height: 100vh;
+  margin-top: 150px;
   text-align: center;
   display: flex;
   flex-wrap: wrap;

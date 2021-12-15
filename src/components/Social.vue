@@ -39,7 +39,9 @@ export default {
 <style scoped lang="scss">
 #social_container {
   height: 100vh;
-  padding: 20px 0;
+  padding: 30px 0;
+  margin-top: 160px;
+  margin-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -73,7 +75,7 @@ export default {
     h1 {
       color: #5b2ca2;
       font-size: 2em;
-      margin: 20px 0;
+      margin-top: 20px;
     }
   }
 }

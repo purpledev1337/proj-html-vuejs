@@ -90,18 +90,19 @@ export default {
 <style scoped lang="scss">
 section {
   height: 100vh;
-  padding: 150px 0;
+  // padding: 120px 0;
   display: flex;
   justify-content: space-between;
 
   #text {
     width: 25%;
-    padding: 0 25px;
+    padding: 15% 30px;
     text-align: center;
+    margin-right: 30px;
 
     h1 {
       color: #5b2ca2;
-      font-size: 1.8em;
+      font-size: 1.9em;
       margin-top: 150px;
       margin-bottom: 25px;
     }
@@ -115,15 +116,13 @@ section {
 
   #products {
     width: 75%;
-    margin: 0 15px;
-    padding-top: 50px;
-    padding-bottom: 200px;
+    padding: 16% 0;
     display: flex;
     justify-content: space-between;
     position: relative;
 
     .card {
-      width: calc(25% - 10px);
+      width: calc(25% - 15px);
       position: relative;
 
       img {
@@ -177,18 +176,22 @@ section {
     }
 
     .arrow {
-      padding: 30px 15px;
+      padding: 30px 18px;
       color: #fff;
-      background-color: #5b2ca254;
       position: absolute;
       top: 50%;
-      transform: translate(0, -100%);
+
+      .icon {
+        font-size: 0.6em;
+      }
 
       &.left {
+        background-color: #a691b2;
         left: 0;
       }
 
       &.right {
+        background-color: #a375ac;
         right: 0;
       }
     }
