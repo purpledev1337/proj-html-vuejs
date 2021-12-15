@@ -112,6 +112,7 @@ h1, h2, h3 {
 
 .nav_link {
   list-style: none;
+  letter-spacing: 2px;
 
   a {
     text-decoration: none;

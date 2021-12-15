@@ -80,8 +80,9 @@ header {
       justify-content: space-around;
 
       .nav_link {
-        font-size: 0.8em;
+        font-size: 0.7em;
         text-transform: uppercase;
+        font-weight: 700;
 
         a {
 
@@ -108,7 +109,7 @@ header {
   #jumbotron {
     width: 30%;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 5%;
 
     h6 {
@@ -117,7 +118,7 @@ header {
     }
 
     h1 {
-      font-size: 3.5em;
+      font-size: 3.2em;
       color: #5b2ca2;
       margin: 25px 0;
     }
