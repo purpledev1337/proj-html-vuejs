@@ -71,7 +71,7 @@ header {
 
     img {
       margin: 0 25px;
-      height: 85px;
+      height: 100px;
     }
  
     ul {
@@ -120,6 +120,12 @@ header {
       font-size: 3.5em;
       color: #5b2ca2;
       margin: 25px 0;
+    }
+
+    p {
+      color: #959595;
+      font-size: 1.3em;
+      line-height: 30px;
     }
   }
 }
