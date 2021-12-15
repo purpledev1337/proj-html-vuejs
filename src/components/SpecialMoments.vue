@@ -57,7 +57,7 @@ export default {
     position: relative;
   
     img {
-      width: calc(100% - 100px);
+      width: 100%;
       height: 800px;
       object-fit: cover;
       object-position: left;

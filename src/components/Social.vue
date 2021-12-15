@@ -38,16 +38,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 #social_container {
-  width: 90%;
-  margin: 0 auto;
   height: 100vh;
+  padding: 40px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
   .social_card {
     width: calc(100% / 4 - 30px);
-    height: calc(50% - 20px);
+    height: calc(50% - 40px);
     margin: 0 5px;
 
     img {
@@ -59,6 +58,7 @@ export default {
 
   .social_call {
     width: calc(100% / 2 - 20px);
+    height: calc(50% - 40px);
     margin: 0 5px;
     background-color: rgba(189, 162, 243, 0.15);
     text-align: center;

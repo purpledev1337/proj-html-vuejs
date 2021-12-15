@@ -61,8 +61,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 section {
-  width: 90%;
-  margin: 0 auto;
   height: 100vh;
   padding: 150px 0;
   display: flex;

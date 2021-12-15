@@ -8,7 +8,7 @@
       </div>
       <div class="location_info">
         <h1>New York</h1>
-        <div>
+        <div class="info_text">
           <h6>
             Call Us
           </h6>
@@ -16,7 +16,7 @@
             1.800.458.556
           </span>
         </div>
-        <div>
+        <div class="info_text">
           <h6>
             Open All Week
           </h6>
@@ -33,7 +33,7 @@
       </div>
       <div class="location_info">
         <h1>London</h1>
-        <div>
+        <div class="info_text">
           <h6>
             Call Us
           </h6>
@@ -41,7 +41,7 @@
           1.800.458.556
           </span>
         </div>
-        <div>
+        <div class="info_text">
           <h6>
             Open All Week
           </h6>
@@ -72,6 +72,11 @@ export default {
 
   h6, h1 {
     width: 100%;
+  }
+
+  h6 {
+    color: #c1c1c7;
+    text-transform: uppercase;
   }
 
   h1 {
@@ -105,14 +110,21 @@ export default {
       justify-content: space-around;
       padding: 20px 0;
 
+      .info_text {
+        color: #808080;
+
+        span {
+          font-weight: 500;
+        }
+      }
+
       h1 {
         margin: 20px 0;
       }
 
       h6 {
-        color: #c1c1c7;
         text-transform: uppercase;
-        margin: 10px 0;
+        margin: 20px 0;
       }
     }
 
