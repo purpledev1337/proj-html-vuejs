@@ -60,10 +60,16 @@ export default {
     flex-wrap: wrap;
     position: relative;
 
+    &.first {
+      .background_overlay {
+        background-color: #32323280;
+      }
+    }
+
     .background_overlay {
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.35);
+      background-color: #19191966;
       padding: 80px;
 
       .text_container {
@@ -106,6 +112,7 @@ export default {
   
     &.first {
       background-image: url("../assets/bakery-process-1.jpg");
+      background-position: left;
 
       h1 {
         width: 40%;
@@ -119,6 +126,7 @@ export default {
     &.second {
       width: calc(50% - 20px);
       background-image: url("../assets/bakery-process-2.jpg");
+      background-position: right;
 
       span {
       top: 60px;
@@ -127,6 +135,7 @@ export default {
 
       .text_container {
         width: 50%;
+        font-size: 0.9em;
       }
     }
   
@@ -148,6 +157,7 @@ export default {
   
     &.fourth {
       background-image: url("../assets/bakery-process-3.jpg");
+      background-position: center;
 
       h1 {
         margin: 25px 0;
@@ -155,6 +165,7 @@ export default {
 
       .text_container {
         width: 35%;
+        font-size: 0.8em;
       }
     }
   }
