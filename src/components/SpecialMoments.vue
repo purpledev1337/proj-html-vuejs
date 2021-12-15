@@ -8,7 +8,7 @@
       <div class="hidden text">
         <h6>International Bakery</h6>
         <h1>Corporate Events</h1>
-        <button>Explore more</button>
+        <div class="btn dark">Explore more</div>
       </div>
     </div>
     <div class="photo_container">
@@ -17,7 +17,7 @@
       <div class="hidden text">
         <h6>Private Dining Hall</h6>
         <h1>Weddings & Parties</h1>
-        <button>Explore more</button>
+        <div class="btn dark">Explore more</div>
       </div>
     </div>
   </div>
