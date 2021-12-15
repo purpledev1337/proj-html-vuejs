@@ -75,7 +75,7 @@ header {
     }
  
     ul {
-      width: 40%;
+      width: 45%;
       display: flex;
       justify-content: space-around;
 

@@ -126,6 +126,7 @@ footer {
       }
 
       ul {
+        width: 90%;
         display: flex;
         justify-content: space-between;
         margin: 50px 0;
