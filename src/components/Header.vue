@@ -113,7 +113,7 @@ header {
 
     h6 {
       text-transform: uppercase;
-      color: #929295;
+      color: #818085;
     }
 
     h1 {
@@ -123,7 +123,7 @@ header {
     }
 
     p {
-      color: #959595;
+      color: #818085;
       font-size: 1.3em;
       line-height: 30px;
     }

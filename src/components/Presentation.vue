@@ -99,7 +99,7 @@ export default {
     }
 
     h6 {
-      color: #959595;
+      color: #818085;
       text-transform: uppercase;
       font-weight: 400;
     }
@@ -132,7 +132,7 @@ export default {
   
     &.third {
       width: calc(50% - 20px);
-      background-color: rgba(189, 162, 243, 0.15);
+      background-color: #f4eff4;
       padding: 80px;
 
       h1 {

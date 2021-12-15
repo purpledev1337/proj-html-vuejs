@@ -42,7 +42,7 @@ export default {
   }
 
   h6 {
-    color: #c1c1c7;
+    color: #818085;
     text-transform: uppercase;
     font-weight: 400;
   }

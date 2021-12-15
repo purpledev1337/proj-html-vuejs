@@ -96,11 +96,11 @@ export default {
     }
 
     &.newyork_info {
-      background-color: #0a5d6c15;
+      background-color: #f1f9fb;
     }
 
     &.london_info {
-      background-color: #f0caa136;
+      background-color: #faf3e3;
     }
 
     .location_info {

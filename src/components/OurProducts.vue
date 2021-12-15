@@ -71,7 +71,7 @@ section {
     padding: 30px 30px;
 
     h6 {
-      color: #c1c1c7;
+      color: #818085;
       text-transform: uppercase;
     }
 

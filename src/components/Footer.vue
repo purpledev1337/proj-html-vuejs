@@ -90,7 +90,7 @@ footer {
       height: 80%;
 
       h6 {
-        color: #c1c1c7;
+        color: #818085;
         text-transform: uppercase;
       }
 
@@ -147,7 +147,7 @@ footer {
 
       p {
         font-size: 0.8em;
-        color: #c1c1c7;
+        color: #818085;
       }
     }
 
@@ -167,6 +167,9 @@ footer {
         height: 40px;
         margin: 50px 0;
         margin-right: 15px;
+        border: 1px solid #8180852d;
+        padding: 25px 15px;
+        font-size: 1em;
       }
 
       #social_icons {

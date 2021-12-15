@@ -109,7 +109,7 @@ section {
     p {
       font-size: 1.2em;
       line-height: 25px;
-      color: gray;
+      color: #818085;
     }
   }
 
