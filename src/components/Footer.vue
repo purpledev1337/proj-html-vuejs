@@ -33,7 +33,7 @@
             </a>
           </li>
         </ul>
-        <p>&copy; Copyright 2021 - 2022 | Bakery Theme by purpledev1337 | All Rights Reserved | Powered by VueJS 2.6.11 </p>
+        <p>&copy; Copyright 2021 - 2022 | Bakery Theme by purpledev1337 | All Rights Reserved | Powered by Vue CLI 4.5.0 - Vue JS 2.6.11</p>
       </section>
       <section id="nav_right">
         <h1>Subscribe to our Newsletter</h1>
@@ -78,7 +78,7 @@ footer {
 
   #jumbotron_container {
     width: 100%;
-    height: 480px;
+    height: 550px;
     position: relative;
     background-image: url("../assets/call-to-action-bg.jpg");
     background-size: cover;
@@ -88,42 +88,47 @@ footer {
     #jumbotron {
       width: 60%;
       height: 80%;
+      margin-left: 50px;
 
       h6 {
-        color: #818085;
+        color: #b1b9bf;
         text-transform: uppercase;
       }
 
       h1 {
-        font-size: 3em;
+        font-size: 2.7em;
         color: #fff;
-        margin: 20px 0;
+        margin: 30px 0;
       }
 
       .btn {
         margin-top: 50px;
         font-weight: 200;
         font-size: 1.2em;
-        padding: 15px 35px;
+        padding: 15px 40px;
       }
     }
   }
 
   nav {
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    padding: 50px 0;
     
     #nav_left {
       width: 50%;
-      padding: 50px;
       float: left;
 
       img {
         height: 80px;
+        margin-top: 20px;
       }
 
       ul {
         display: flex;
         justify-content: space-between;
-        margin: 70px 0;
+        margin: 50px 0;
 
         .nav_link {
 
@@ -148,18 +153,19 @@ footer {
       p {
         font-size: 0.8em;
         color: #818085;
+        margin-top: 120px;
       }
     }
 
     #nav_right {
       width: 50%;
-      padding: 50px;
       float: right;
       text-align: right;
 
       h1 {
         color: #5b2ca2;
-        font-size: 1.8em;
+        font-size: 1.4em;
+        margin-top: 30px;
       }
 
       input {
@@ -173,6 +179,7 @@ footer {
       }
 
       #social_icons {
+
         margin-top: 100px;
 
         i {
