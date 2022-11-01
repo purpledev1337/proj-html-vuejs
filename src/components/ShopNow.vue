@@ -161,7 +161,8 @@ section {
         padding: 20px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         color: #5b2ca2;
 
         h1 {
