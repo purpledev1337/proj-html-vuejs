@@ -14,7 +14,9 @@ export default {
     productName: String,
     productPath: String,
     productPriceMin: String,
-    productPriceMax: String
+    productPriceMax: String,
+    productActive: Boolean,
+    productType: String
   }
 }
 </script>

@@ -40,6 +40,7 @@
       :productName="product.name"
       :productPriceMin="product.priceMin"
       :productPriceMax="product.priceMax"
+      :productType="product.type"
       />
   </section>
 </template>

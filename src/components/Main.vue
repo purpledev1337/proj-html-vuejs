@@ -44,6 +44,7 @@ export default {
           path: "../assets/choco-chip-cookies.jpg",
           priceMin: '$19.00',
           priceMax: '$39.00',
+          type: "Cookies, Pastries",
           active: 1
         },
         {
@@ -51,6 +52,7 @@ export default {
           path: "../assets/strawberry-jam-cookies.jpg",
           priceMin: '$24.00',
           priceMax: '$62.00',
+          type: "Cookies, Pastries",
           active: 1
         },
         {
@@ -58,6 +60,7 @@ export default {
           path: "../assets/strawberry-donut.jpg",
           priceMin: '$24.00',
           priceMax: '$42.00',
+          type: "Donuts, Pastries",
           active: 0
         },
         {
@@ -65,6 +68,7 @@ export default {
           path: "../assets/perfect-macarons.jpg",
           priceMin: '$18.00',
           priceMax: '$52.00',
+          type: "Cookies, Pastries",
           active: 0
         },
         {
@@ -72,6 +76,7 @@ export default {
           path: "../assets/small-cupcake.jpg",
           priceMin: '$14.00',
           priceMax: '$29.00',
+          type: "Cupcakes, Pastries",
           active: 0
         },
         {
@@ -79,6 +84,7 @@ export default {
           path: "../assets/cherry-cake.jpg",
           priceMin: '$59.00',
           priceMax: '$119.00',
+          type: "Cakes, Bakery",
           active: 0
         },
         {
@@ -86,6 +92,7 @@ export default {
           path: "../assets/home-bread.jpg",
           priceMin: '$12.00',
           priceMax: '$19.00',
+          type: "Bread, Bakery",
           active: 0
         },
         {
@@ -93,6 +100,7 @@ export default {
           path: "../assets/premium-bread.jpg",
           priceMin: '$18.00',
           priceMax: '$37.00',
+          type: "Bread, Bakery",
           active: 0
         }
       ]

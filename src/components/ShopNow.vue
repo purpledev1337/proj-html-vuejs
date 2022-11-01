@@ -68,6 +68,7 @@
       :productName="product.name"
       :productPriceMin="product.priceMin"
       :productPriceMax="product.priceMax"
+      :productType="product.type"
       />
   </section>
 </template>
@@ -90,7 +91,6 @@ export default {
 <style scoped lang="scss">
 section {
   height: 100vh;
-  // padding: 120px 0;
   display: flex;
   justify-content: space-between;
 
