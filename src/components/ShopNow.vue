@@ -165,7 +165,7 @@ section {
         color: #5b2ca2;
 
         h1 {
-          font-size: 1.2em;
+          font-size: 1em;
         }
 
         span {
